@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+    <title>businesshelp</title>
+    <style>
+        * {
+            padding-right: 10%;
+            padding-top: 1%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        
+        .header {
+            width: 100%;
+            height: 80px;
+            display: block;
+            background-color: #101010;
+        }
+        
+        .inner_header {
+            width: 1000px;
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .logo_container {
+            height: 100%;
+            display: table;
+            float: left;
+        }
+        
+        .logo_container h1 {
+            color: white;
+            height: 100%;
+            display: table-cell;
+            vertical-align: middle;
+            font-family: Calibri;
+            font-size: 55px;
+            font-weight: 200;
+        }
+        
+        .navigation {
+            float: right;
+            height: 100%;
+        }
+        
+        .navigation a {
+            height: 100%;
+            display: table;
+            float: left;
+            padding: 0px 20px;
+        }
+        
+        .navigation a li {
+            display: table-cell;
+            vertical-align: middle;
+            height: 100%;
+            color: white;
+            font-family: 'Calibri';
+            font-size: 25px;
+        }
+        
+        .article {
+            font-size: 20px;
+            font-family: sans-serif;
+            margin: 2% 20% 3% 30%;
+            background-color: rgb(22, 127, 189);
+            width: 400px;
+            height: 450px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 40px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+        
+        .button {
+            cursor: pointer;
+            color: white;
+            border-width: 0px;
+            border-radius: 4px;
+            font-size: 17px;
+            width: 98%;
+            height: 40px;
+            background-color: rgb(34, 34, 34);
+        }
+        
+        article input {
+            border-width: 0px;
+            border-radius: 6px;
+            padding: 10px 10px;
+            font-size: 15px;
+            width: 98%;
+            height: 25px;
+        }
+        
+        article textarea {
+            border-width: 0px;
+            border-radius: 6px;
+            padding: 10px 10px;
+            font-size: 15px;
+            width: 98%;
+            height: 110px;
+        }
+        
+        p {
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo_container">
+                <h1>business</h1>
+            </div>
+
+            <ul class="navigation">
+                <a href="../index.html">
+                    <li>Home</li>
+                </a>
+                <a href="../buy/index.html">
+                    <li>Buy</li>
+                </a>
+                <a href="../about/index.html">
+                    <li>About</li>
+                </a>
+                <a href="../help/index.html">
+                    <li>Help</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <p><b>H&#9;e&#9;l&#9;p</b></p><br>
+    <article class="article">
+        <div>
+            <h3>Send Us a Message</h3><br>
+            <div><input type="text" name="name" placeholder="Your Name"></div>
+            <br>
+            <div><input type="text" name="email" placeholder="Your Email"></div>
+            <br>
+            <div><input type="text" name="Subject" placeholder="Subject"></div>
+            <br>
+            <div><textarea name="message" placeholder="Write your message..."></textarea></div>
+            <br>
+            <div>
+                <a href="mailto:yisraeltg@gmail.com"><input class="button" type="submit" name="submit" value="Send Message"></a>
+            </div>
+        </div>
+    </article>
+</body>
+
+</html>
